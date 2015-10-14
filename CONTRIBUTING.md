@@ -16,12 +16,12 @@ TODO
 * **Comments** are part of good code.  You should especially
   comment anything that might not be immediately obvious.
   Put a block comment at the beginning of each file explaining
-  it's purpose and make sure that public properties & methods
+  its purpose and make sure that public properties & methods
   have jsdoc comments.
 
 * **Every `commit` or `PR` *must* include appropriate tests.**
   On every test run, a coverage report is created in
-  `coverage/`, let's atleast *aspire* for 100% coverage.
+  `coverage/`, let's at least *aspire* for 100% coverage.
 
   [As the code base matures:]  Our test runner, karma, already
   allows to run the tests on local browsers, and each push
@@ -58,7 +58,7 @@ TODO
 
 * Should be made against the `devel` branch.
 
-* Should adhede to everythign in this doc (comments,
+* Should adhere to everything in this doc (comments,
   data structures, garbage collection, backwards
   compatibility, proper deprecation process, include
   tests, make an entry in History.md, etc.)
@@ -107,7 +107,7 @@ TODO
   them.  Iterating through these kinds of functions with a 
   SinglyLinkedList is highly efficient.
 
-* **Don't use *bind()***.  It's not performanent.  Make your
+* **Don't use *bind()***.  It's not performant.  Make your
   own closure (using `.call()` is fine).  It's possible this
   will get optimized better in the future, but there are still
   all the old browsers.
